@@ -1,0 +1,52 @@
+[
+  {
+    "id": "sc-001",
+    "content": "Taiwan Semiconductor Manufacturing Company (TSMC) is the world's largest dedicated independent semiconductor foundry. Headquartered in Hsinchu, Taiwan, it has a supplier reliability rating of 94.7% and produces over 50% of the world's outsourced chips. Key clients include Apple, NVIDIA, and Qualcomm.",
+    "metadata": {"type": "supplier", "region": "Asia", "country": "Taiwan"}
+  },
+  {
+    "id": "sc-002",
+    "content": "Shanghai Electronics Co. is a mid-tier component supplier based in Shanghai, China. They supply capacitors and resistors to automotive manufacturers. Current reliability rating is 87.3%, which has been flagged for review. Lead time averages 14 days.",
+    "metadata": {"type": "supplier", "region": "Asia", "country": "China"}
+  },
+  {
+    "id": "sc-003",
+    "content": "Bosch GmbH operates as a Tier-1 supplier for automotive sensors and control units. Based in Stuttgart, Germany, their reliability score is 96.1%. They supply to BMW, Mercedes-Benz, and Toyota through a network of 12 warehouses across Europe.",
+    "metadata": {"type": "supplier", "region": "Europe", "country": "Germany"}
+  },
+  {
+    "id": "sc-004",
+    "content": "Shenzhen MicroParts Ltd. is a vendor based in Shenzhen, China, specializing in microcontrollers and PCB assemblies. They have a reliability score of 82.5% and have experienced 3 delivery delays in the past quarter. Average lead time is 21 days.",
+    "metadata": {"type": "supplier", "region": "Asia", "country": "China"}
+  },
+  {
+    "id": "sc-005",
+    "content": "The central distribution warehouse in Rotterdam, Netherlands handles 40% of European inbound shipments. It has a throughput of 15,000 units/day and connects to 6 regional warehouses via automated logistics routes. Last audit score: 91.2%.",
+    "metadata": {"type": "warehouse", "region": "Europe", "country": "Netherlands"}
+  },
+  {
+    "id": "sc-006",
+    "content": "Samsung SDI supplies lithium-ion battery cells for electric vehicles. Based in Yongin, South Korea, they maintain a 95.8% reliability rating. They are a critical supplier for the EV battery pack assembly line, with a 30-day lead time for bulk orders.",
+    "metadata": {"type": "supplier", "region": "Asia", "country": "South Korea"}
+  },
+  {
+    "id": "sc-007",
+    "content": "Flex Ltd. is a contract manufacturer headquartered in Singapore, operating 100+ facilities across 30 countries. They handle PCB assembly, final product assembly, and logistics for consumer electronics. Reliability rating: 93.4%.",
+    "metadata": {"type": "manufacturer", "region": "Asia", "country": "Singapore"}
+  },
+  {
+    "id": "sc-008",
+    "content": "If Taiwan Semiconductor (TSMC) experiences a disruption, the downstream impact includes: Apple iPhone production halts within 4 weeks, NVIDIA GPU supply drops by 60%, and automotive chip shortages cascade to 15+ OEMs. Estimated global revenue impact: $80B annually.",
+    "metadata": {"type": "risk_analysis", "region": "Global", "country": "Taiwan"}
+  },
+  {
+    "id": "sc-009",
+    "content": "Texas Instruments Inc. is a semiconductor supplier based in Dallas, USA. They produce analog chips, embedded processors, and DLP technology. Reliability rating: 97.2%. They supply to industrial, automotive, and personal electronics sectors.",
+    "metadata": {"type": "supplier", "region": "North America", "country": "USA"}
+  },
+  {
+    "id": "sc-010",
+    "content": "Jiangsu Changjiang Electronics Technology (JCET) is a packaging and testing vendor based in Jiangyin, China. Reliability score: 88.9%. They provide IC packaging services for semiconductor companies and have expanded capacity by 20% in 2024.",
+    "metadata": {"type": "supplier", "region": "Asia", "country": "China"}
+  }
+]

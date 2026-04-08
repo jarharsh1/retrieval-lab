@@ -1,0 +1,52 @@
+[
+  {
+    "id": "hc-001",
+    "content": "Metformin 500mg is the first-line treatment for type 2 diabetes mellitus. Common side effects include nausea, diarrhea, stomach pain, and a metallic taste. Rare but serious: lactic acidosis, especially in patients with kidney impairment. Take with meals to reduce GI side effects.",
+    "metadata": {"type": "drug", "category": "antidiabetic"}
+  },
+  {
+    "id": "hc-002",
+    "content": "Hyperglycemia management protocol: For blood glucose above 250 mg/dL, administer rapid-acting insulin per sliding scale. For persistent hyperglycemia, evaluate HbA1c and adjust oral medication. Consider switching from sulfonylureas to GLP-1 receptor agonists if control is inadequate.",
+    "metadata": {"type": "protocol", "category": "endocrinology"}
+  },
+  {
+    "id": "hc-003",
+    "content": "Warfarin (Coumadin) is an anticoagulant (blood thinner) used to prevent blood clots. It interacts with many drugs including NSAIDs (ibuprofen, aspirin), which increase bleeding risk. Concurrent use of warfarin and ibuprofen requires INR monitoring every 3 days.",
+    "metadata": {"type": "drug", "category": "anticoagulant"}
+  },
+  {
+    "id": "hc-004",
+    "content": "Ibuprofen 400mg is a nonsteroidal anti-inflammatory drug (NSAID) used for pain relief. It reduces inflammation by inhibiting COX-1 and COX-2 enzymes. Contraindicated in patients on anticoagulants due to increased bleeding risk. Maximum daily dose: 1200mg for OTC use.",
+    "metadata": {"type": "drug", "category": "nsaid"}
+  },
+  {
+    "id": "hc-005",
+    "content": "Type 2 diabetes treatment algorithm: Step 1 — Lifestyle modifications (diet + exercise). Step 2 — Metformin monotherapy. Step 3 — Add a second agent (GLP-1 RA, SGLT2 inhibitor, or DPP-4 inhibitor). Step 4 — Basal insulin if HbA1c > 9%. Step 5 — Intensify insulin regimen.",
+    "metadata": {"type": "protocol", "category": "endocrinology"}
+  },
+  {
+    "id": "hc-006",
+    "content": "Lisinopril 10mg is an ACE inhibitor used to treat hypertension and heart failure. Side effects include dry cough (10-15% of patients), dizziness, and hyperkalemia. Contraindicated in pregnancy. Monitor renal function and potassium levels.",
+    "metadata": {"type": "drug", "category": "cardiovascular"}
+  },
+  {
+    "id": "hc-007",
+    "content": "Drug interaction alert: Aspirin (an antiplatelet) combined with warfarin (an anticoagulant) significantly increases the risk of gastrointestinal bleeding. If both are necessary, use the lowest effective aspirin dose (81mg) and monitor INR weekly.",
+    "metadata": {"type": "interaction", "category": "hematology"}
+  },
+  {
+    "id": "hc-008",
+    "content": "Atorvastatin 20mg (Lipitor) is a statin used to lower LDL cholesterol. Side effects include muscle pain (myalgia), liver enzyme elevation, and rarely rhabdomyolysis. Check liver enzymes at baseline and 12 weeks after initiation. Avoid grapefruit juice.",
+    "metadata": {"type": "drug", "category": "cardiovascular"}
+  },
+  {
+    "id": "hc-009",
+    "content": "Insulin glargine (Lantus) is a long-acting basal insulin for diabetes management. Administer once daily at the same time. Starting dose: 10 units or 0.2 units/kg. Titrate by 2 units every 3 days until fasting glucose is 80-130 mg/dL. Hypoglycemia is the main risk.",
+    "metadata": {"type": "drug", "category": "antidiabetic"}
+  },
+  {
+    "id": "hc-010",
+    "content": "Acetaminophen (Tylenol) 500mg is a pain reliever and fever reducer. Unlike NSAIDs, it does NOT increase bleeding risk and is safe for patients on anticoagulants. Maximum daily dose: 3000mg. Hepatotoxicity risk above 4000mg/day. Preferred analgesic for patients on warfarin.",
+    "metadata": {"type": "drug", "category": "analgesic"}
+  }
+]

@@ -1,0 +1,45 @@
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+    env_file:
+      - .env
+    depends_on:
+      - chromadb
+    networks:
+      - retriever-net
+
+  chromadb:
+    image: chromadb/chroma:latest
+    ports:
+      - "8001:8000"
+    volumes:
+      - chroma_data:/chroma/chroma
+    networks:
+      - retriever-net
+
+  # Neo4j — only needed from Technique 10 (GraphRAG) onwards
+  # Uncomment when you reach Phase 4
+  #
+  # neo4j:
+  #   image: neo4j:5
+  #   ports:
+  #     - "7474:7474"
+  #     - "7687:7687"
+  #   environment:
+  #     NEO4J_AUTH: neo4j/${NEO4J_PASSWORD}
+  #   volumes:
+  #     - neo4j_data:/data
+  #   networks:
+  #     - retriever-net
+
+networks:
+  retriever-net:
+    driver: bridge
+
+volumes:
+  chroma_data:
+  neo4j_data:

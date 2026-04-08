@@ -1,0 +1,52 @@
+[
+  {
+    "id": "wp-001",
+    "content": "Photosynthesis is a biological process used by plants, algae, and some bacteria to convert light energy into chemical energy stored in glucose. The overall equation is 6CO2 + 6H2O + light → C6H12O6 + 6O2. It occurs in two stages: light-dependent reactions in the thylakoid membranes and the Calvin cycle in the stroma of chloroplasts.",
+    "metadata": {"topic": "biology", "subtopic": "botany"}
+  },
+  {
+    "id": "wp-002",
+    "content": "The Industrial Revolution (1760-1840) transformed manufacturing from hand production to machine-based processes. It began in Britain with the textile industry and spread to iron production and steam power. Agricultural changes included the seed drill, crop rotation, and enclosure of common lands, which displaced rural workers into factory towns.",
+    "metadata": {"topic": "history", "subtopic": "industrial_revolution"}
+  },
+  {
+    "id": "wp-003",
+    "content": "The Chrysler Building is a 77-story Art Deco skyscraper located on the east side of Midtown Manhattan in New York City. Completed in 1930, it stands at 1,046 feet (319 m). It was briefly the world's tallest building before being surpassed by the Empire State Building in 1931.",
+    "metadata": {"topic": "architecture", "subtopic": "art_deco"}
+  },
+  {
+    "id": "wp-004",
+    "content": "The Empire State Building is a 102-story Art Deco skyscraper in Midtown Manhattan, New York City. Completed in 1931, it reaches 1,454 feet (443 m) including the antenna. It was the tallest building in the world for nearly 40 years. Its construction took just 410 days.",
+    "metadata": {"topic": "architecture", "subtopic": "art_deco"}
+  },
+  {
+    "id": "wp-005",
+    "content": "Machine learning is a subset of artificial intelligence that enables systems to learn from data without being explicitly programmed. Key paradigms include supervised learning (labeled data), unsupervised learning (pattern discovery), and reinforcement learning (reward-based). Common algorithms: linear regression, decision trees, neural networks, SVMs.",
+    "metadata": {"topic": "technology", "subtopic": "machine_learning"}
+  },
+  {
+    "id": "wp-006",
+    "content": "The Great Barrier Reef is the world's largest coral reef system, stretching over 2,300 km along the northeast coast of Australia. It comprises 2,900 individual reefs and 900 islands. It is home to 1,500 fish species, 400 coral species, and is visible from space. Climate change and coral bleaching threaten its ecosystem.",
+    "metadata": {"topic": "geography", "subtopic": "natural_wonders"}
+  },
+  {
+    "id": "wp-007",
+    "content": "The Enclosure Acts (1750-1860) in Britain consolidated small agricultural strips into larger, privately-owned farms. While this increased agricultural efficiency and output, it displaced tenant farmers and landless laborers who depended on common land for grazing and foraging, pushing many into urban factory employment during the Industrial Revolution.",
+    "metadata": {"topic": "history", "subtopic": "agriculture"}
+  },
+  {
+    "id": "wp-008",
+    "content": "The chloroplast is a double-membrane organelle found in plant cells and algae. It contains thylakoids (stacked into grana) where light reactions occur, and the stroma where the Calvin cycle fixes CO2 into sugar. Chloroplasts contain their own DNA and are believed to have originated from endosymbiotic cyanobacteria.",
+    "metadata": {"topic": "biology", "subtopic": "cell_biology"}
+  },
+  {
+    "id": "wp-009",
+    "content": "30 Rockefeller Plaza (30 Rock) is a 70-story Art Deco skyscraper in Midtown Manhattan, New York City. Completed in 1933, it is the centerpiece of Rockefeller Center. Standing at 850 feet (259 m), it houses NBC Studios and the famous Top of the Rock observation deck.",
+    "metadata": {"topic": "architecture", "subtopic": "art_deco"}
+  },
+  {
+    "id": "wp-010",
+    "content": "CRISPR-Cas9 is a gene-editing technology adapted from a bacterial immune defense system. It uses a guide RNA to direct the Cas9 enzyme to a specific DNA sequence, where it makes a double-strand break. This allows researchers to delete, insert, or modify genes with high precision. Applications include disease treatment, crop engineering, and gene therapy.",
+    "metadata": {"topic": "biology", "subtopic": "genetics"}
+  }
+]
