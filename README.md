@@ -1,14 +1,31 @@
 # RetrieverBench
 
-An interactive playground for learning, testing, and comparing document retrieval techniques used in modern RAG (Retrieval-Augmented Generation) systems.
+**Learn, test, and compare 11 document retrieval techniques — side by side — on real datasets.**
 
-Pick a dataset, pick a retrieval technique, run a query, and see exactly what got retrieved, why, and how fast. The core feature is **side-by-side comparison** — running the same query through two different techniques to see why one finds better results than the other.
+Most RAG tutorials explain retrieval in theory. RetrieverBench lets you **run** the same query through BM25, Semantic Search, HyDE, GraphRAG, and 7 other techniques, then see the actual results next to each other — what got retrieved, the relevance scores, the latency, and a plain-English explanation of *why* each document was picked.
 
-## Why RetrieverBench?
+Built for engineers who want to **understand retrieval by doing**, not just reading.
 
-- **Learning tool** — for engineers preparing for ML/AI interviews who want to understand retrieval techniques hands-on
-- **Benchmarking tool** — for comparing retrieval strategies on real data with concrete metrics
-- **Visual explanations** — every retrieved chunk comes with a plain-English explanation of WHY it was selected
+### The Problem
+
+You're building a RAG pipeline and need to pick a retrieval strategy. Should you use BM25? Semantic search? Hybrid? The answer depends on your data and query patterns — but there's no easy way to test this without wiring up each technique yourself.
+
+### The Solution
+
+RetrieverBench gives you a playground where you can:
+
+- **Pick a dataset** (supply chain, healthcare, or Wikipedia)
+- **Pick a technique** (or two, for side-by-side comparison)
+- **Run a query** and instantly see what each technique retrieves and why
+- **Compare results** — same query, different techniques, clear winner
+
+Every retrieved chunk comes with an `explanation` field: not just a score, but a human-readable reason like *"Matched because 'vendors' is semantically similar to 'suppliers' (cosine similarity: 0.87)"*.
+
+### Who Is This For?
+
+- **Engineers preparing for ML/AI interviews** — understand retrieval techniques hands-on, not from slides
+- **Developers building RAG pipelines** — benchmark which technique works best for your data
+- **Anyone curious about how search works** — the codebase is heavily commented, the code *is* the tutorial
 
 ## How It Works
 
