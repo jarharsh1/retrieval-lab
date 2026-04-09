@@ -13,10 +13,32 @@ from pydantic import BaseModel
 
 from datasets.loader import load_dataset
 from retrievers.base import RetrievalResult
+from retrievers.bm25 import BM25Retriever
+from retrievers.semantic import SemanticRetriever
+from retrievers.hybrid import HybridRetriever
+from retrievers.query_rewriter import QueryRewriterRetriever
+from retrievers.multi_query import MultiQueryRetriever
+from retrievers.hyde import HyDERetriever
+from retrievers.reranker import RerankerRetriever
+from retrievers.parent_child import ParentChildRetriever
+from retrievers.semantic_chunk import SemanticChunkRetriever
+from retrievers.graph_rag import GraphRAGRetriever
+from retrievers.agentic import AgenticRetriever
 
-# Technique registry — maps technique name to its retriever class.
-# Each technique gets added here as we build it.
-TECHNIQUE_REGISTRY: dict = {}
+# Technique registry — maps API name to retriever class
+TECHNIQUE_REGISTRY: dict = {
+    "bm25": BM25Retriever,
+    "semantic": SemanticRetriever,
+    "hybrid": HybridRetriever,
+    "query_rewriter": QueryRewriterRetriever,
+    "multi_query": MultiQueryRetriever,
+    "hyde": HyDERetriever,
+    "reranker": RerankerRetriever,
+    "parent_child": ParentChildRetriever,
+    "semantic_chunk": SemanticChunkRetriever,
+    "graph_rag": GraphRAGRetriever,
+    "agentic": AgenticRetriever,
+}
 
 router = APIRouter()
 

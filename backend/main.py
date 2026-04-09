@@ -4,6 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from routes.retrieve import router as retrieve_router
 from routes.compare import router as compare_router
 from routes.datasets import router as datasets_router
+from routes.upload import router as upload_router
 
 app = FastAPI(
     title="RetrieverBench",
@@ -24,6 +25,7 @@ app.add_middleware(
 app.include_router(retrieve_router, prefix="/api")
 app.include_router(compare_router, prefix="/api")
 app.include_router(datasets_router, prefix="/api")
+app.include_router(upload_router, prefix="/api")
 
 
 @app.get("/health")
